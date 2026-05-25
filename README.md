@@ -101,6 +101,13 @@ Scrollable question navigator:
 ## 🧠 Exam Window
 ![Exam](screenshots/exam-window.png)
 
+## 📊 After Submit Result Analysis Window
+
+Final result analysis screen shown after submitting the exam.  
+It displays score, performance summary, correct/incorrect answers, and overall analysis.
+
+![Result Analysis](screenshots/AfterSubmitResultAnalysisWindow.png)
+
 # 📁 CSV FORMAT
 
 ```csv
