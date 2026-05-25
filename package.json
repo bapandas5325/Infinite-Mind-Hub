@@ -1,12 +1,10 @@
 {
   "name": "mcq-quiz-app",
   "private": true,
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
