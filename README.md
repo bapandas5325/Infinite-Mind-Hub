@@ -70,6 +70,53 @@ React 18, Vite, PapaParse, Chart.js, React-Chartjs-2
 CSV Upload → Parse Data → Configure Exam → Start Quiz → Answer Questions → Submit → Score Calculation → Result Dashboard
 
 ---
+# 📸 Screenshots (App Flow)
+
+The app follows a step-by-step exam workflow from login/start to final exam execution.
+
+---
+
+## 🏠 1. Home Page
+Entry screen of the MCQ system where user starts the process.
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 📁 2. Question File Upload
+User uploads the CSV question file here.
+
+![Question File](screenshots/question-file.png)
+
+---
+
+## 📊 3. Questions From CSV
+System parses and displays questions from uploaded CSV file.
+
+![Questions From CSV](screenshots/questions-from-csv.png)
+
+---
+
+## 📑 4. Instruction Page
+Before starting the exam, user selects settings like:
+- Mode (Practice / Attempt)
+- Number of questions
+- Timer setup
+- Exam rules
+
+![Instruction Page](screenshots/instruction.png)
+
+---
+
+## 🧠 5. Exam Window
+Main exam interface with full features:
+- Timer system
+- Question palette navigation
+- Answer selection
+- Progress tracking
+- Fullscreen + anti-cheating mode
+
+![Exam Window](screenshots/exam-window.png)
 
 # 👨‍💻 Author
 B.Das  
