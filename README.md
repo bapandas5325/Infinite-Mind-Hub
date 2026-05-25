@@ -80,34 +80,31 @@ Scrollable question navigator:
 # 📸 Screenshots (App Flow)
 
 ## 🏠 Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/Home.png)
 
 ---
 
 ## 📁 Question File Upload
-![Upload](screenshots/question-file.png)
+![Upload](screenshots/Question File.png)
 
 ---
 
 ## 📊 Questions From CSV
-![CSV Questions](screenshots/questions-from-csv.png)
+![CSV Questions](screenshots/QuestionsFromCSV.png)
 
 ---
 
 ## 📑 Instruction Page
-![Instruction](screenshots/instruction.png)
+![Instruction](screenshots/INSTRUCTION.png)
 
 ---
 
 ## 🧠 Exam Window
-![Exam](screenshots/exam-window.png)
+![Exam](screenshots/ExamWindow.png)
 
+---
 
 ## 📊 After Submit Result Analysis Window
-
-Final result analysis screen shown after submitting the exam.  
-It displays score, performance summary, correct/incorrect answers, and overall analysis.
-
 ![Result Analysis](screenshots/AfterSubmitResultAnalysisWindow.png)
 
 # 📁 CSV FORMAT
