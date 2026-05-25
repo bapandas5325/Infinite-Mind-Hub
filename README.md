@@ -76,6 +76,7 @@ Scrollable question navigator:
 - Warning before time ends  
 
 ---
+
 # 📸 Screenshots (App Flow)
 
 ## 🏠 Home Page
@@ -100,6 +101,7 @@ Scrollable question navigator:
 
 ## 🧠 Exam Window
 ![Exam](screenshots/exam-window.png)
+
 
 ## 📊 After Submit Result Analysis Window
 
