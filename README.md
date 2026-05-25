@@ -1,128 +1,109 @@
 # 📚 MCQ Exam App
 
-A React + Vite based MCQ quiz system that converts CSV question files into a full online exam platform with practice mode, test mode, timer, and result tracking.
+A React + Vite based MCQ quiz system that converts CSV question files into a full online exam platform with Practice Mode, Attempt Mode, Timer system, Anti-Cheating features, and Result tracking.
 
 ---
 
 # 🧠 About the System
-This app reads MCQ questions from a CSV file and dynamically builds an exam interface. It supports both learning (practice) and real exam simulation with strict rules, timer control, and scoring system.
+
+This application converts a CSV question bank into a full exam simulation platform.  
+It supports competitive exam preparation like SSC, Banking, Railway, etc.
+
+Users can upload questions, configure exam settings, and attempt structured tests with real exam-like environment.
 
 ---
 
 # ⚙️ How It Works
-Upload CSV → Questions are parsed → User selects exam settings (mode, time, question count) → Quiz starts → User answers questions → System evaluates score → Result displayed with performance summary
+
+CSV Upload → Questions parsed → Exam settings selected → Instruction page → Exam starts → User answers → Score calculated → Result shown.
 
 ---
 
 # 🎯 Modes
 
-Practice Mode → Learning mode, no time limit, answers can be changed anytime, instant feedback possible  
-Attempt Mode → Real exam simulation, timer enabled, no answer changes allowed, strict exam rules applied
+## 📖 Practice Mode
+- No time limit  
+- Answers can be changed anytime  
+- Learning-based mode  
+- Instant feedback  
+
+## 🏁 Attempt Mode (Exam Simulation)
+- Strict exam rules  
+- Timer enabled  
+- No answer changes allowed  
+- Full-screen mode active  
+- Anti-cheating system enabled  
+- Result shown at end  
 
 ---
 
 # 🛡️ Anti-Cheating System
-To simulate real exam environment:
-- Detects tab switching / window loss
-- Fullscreen mode enforced during exam
-- Warning alerts on focus loss
-- Prevents distractions like copy/paste or right-click (optional)
+
+- Tab switch detection  
+- Full-screen enforcement  
+- Focus loss warning  
+- Optional copy/paste disable  
+- Auto-submit on violation (optional)  
 
 ---
 
-# 🌙 UI / UX Features
-- Dark mode / light mode toggle
-- Full-screen exam interface
-- Question palette sidebar for quick navigation
-- Progress bar showing attempted questions
-- Clean exam-style layout
+# 🌙 UI / UX FEATURES
+
+- 🌙 Dark / Light mode toggle  
+- 🖥️ Full-screen exam interface  
+- 📋 Question palette navigation  
+- 📊 Progress bar tracking  
+- ⏱️ Countdown timer system  
+- 🎨 Clean exam UI design  
 
 ---
 
-# 📋 Question Palette
-A scrollable numbered panel that allows users to jump between questions instantly. It shows:
-- Answered questions
-- Unanswered questions
-- Marked questions
-- Current question highlight
+# 📋 QUESTION PALETTE
+
+Scrollable question navigator:
+
+- 🟩 Answered  
+- ⬜ Not answered  
+- 🟨 Marked for review  
+- 🔵 Current question  
 
 ---
 
-# ⏱️ Timer System
-- Countdown timer for exam duration
-- Auto-submit when time ends
-- Warning when time is about to finish
+# ⏱️ TIMER SYSTEM
 
----
-
-# 📁 CSV Format
-Question,OptionA,OptionB,OptionC,OptionD,CorrectAnswer  
-CorrectAnswer must be A / B / C / D
-
----
-
-# 🛠️ Tech Stack
-React 18, Vite, PapaParse, Chart.js, React-Chartjs-2
-
----
-
-# 🚀 System Flow
-CSV Upload → Parse Data → Configure Exam → Start Quiz → Answer Questions → Submit → Score Calculation → Result Dashboard
+- Countdown timer  
+- Auto-submit on time end  
+- Warning before time ends  
 
 ---
 # 📸 Screenshots (App Flow)
 
-The app follows a step-by-step exam workflow from login/start to final exam execution.
+## 🏠 Home Page
+![Home](screenshots/home.png)
 
 ---
 
-## 🏠 1. Home Page
-Entry screen of the MCQ system where user starts the process.
-
-![Home Page](screenshots/home.png)
+## 📁 Question File Upload
+![Upload](screenshots/question-file.png)
 
 ---
 
-## 📁 2. Question File Upload
-User uploads the CSV question file here.
-
-![Question File](screenshots/question-file.png)
+## 📊 Questions From CSV
+![CSV Questions](screenshots/questions-from-csv.png)
 
 ---
 
-## 📊 3. Questions From CSV
-System parses and displays questions from uploaded CSV file.
-
-![Questions From CSV](screenshots/questions-from-csv.png)
+## 📑 Instruction Page
+![Instruction](screenshots/instruction.png)
 
 ---
 
-## 📑 4. Instruction Page
-Before starting the exam, user selects settings like:
-- Mode (Practice / Attempt)
-- Number of questions
-- Timer setup
-- Exam rules
+## 🧠 Exam Window
+![Exam](screenshots/exam-window.png)
 
-![Instruction Page](screenshots/instruction.png)
+# 📁 CSV FORMAT
 
----
-
-## 🧠 5. Exam Window
-Main exam interface with full features:
-- Timer system
-- Question palette navigation
-- Answer selection
-- Progress tracking
-- Fullscreen + anti-cheating mode
-
-![Exam Window](screenshots/exam-window.png)
-
-# 👨‍💻 Author
-B.Das  
-GitHub: https://github.com/bapandas5325
-
----
-
-# ⭐ Summary
-This project is a complete exam simulation system designed to replicate real competitive exams with structured UI, timer control, and strict test environment.
+```csv
+Question,OptionA,OptionB,OptionC,OptionD,CorrectAnswer
+Who discovered gravity?,Newton,Einstein,Galileo,Faraday,A
+What is 2 + 2?,1,2,3,4,D
