@@ -82,10 +82,6 @@ Scrollable question navigator:
 ## 🏠 Home Page
 ![Home](screenshots/Home.png)
 
----
-
-## 📁 Question File Upload
-![Upload](screenshots/Question File.png)
 
 ---
 
